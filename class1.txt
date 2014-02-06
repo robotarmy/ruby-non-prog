@@ -1,0 +1,326 @@
+# Introduction
+
+My name is Curtis Schofield — I will be your Teacher.
+
+---
+
+# Ruby for Non-Programmers
+
+After taking this class you will be born a rubyist - you will be a baby, 
+naked after being born into the world of programming.
+
+With this class you will be a burgeoning programmer and your first
+language will be ruby.
+ 
+
+Be Introduced to  :
+	Basic Input/Output
+	How computers think
+	How to structure data for computers (Array / Hash / Integer )
+	How much computers like to repeat (loop 0)
+	How much computers like to repeat (loop 1 )
+	HTTP Protocol that is behind the interwebs 
+
+---
+
+# Setting Expectations Part 1
+
+Class will begin with a basic lecture and then will explore some topics.
+
+Coding theory will be practiced in Lecture 1.
+
+Students will be expected to dedicate at least 1 evening for class 
+and 1 evening for independent study during the week on optional topics
+
+I enourage you to enjoy this process and be wise to the fact that this
+skill will take time, effort and patience to develop. 
+
+These 4 classes are meaning to prepare you for your journey.
+---
+
+# Setting Expectations Part 2
+
+At the beginning of class 2,3,4 I will expect to receive a report about any insights you
+had during the week, during your independent study, or maybe in the middle of the night!
+
+There will be ‘option’ topics which I will list each class that can spur your own personal exploration,
+you do not have you build anything complex (unless you wish to try) but some theory or exposure
+to these topics can be often give you some perspective about your own interests. 
+
+You can use my suggestions for optional topics or invent your own!
+
+---
+
+# Setting Expectations Part 3
+
+Please Be Advised:
+
+This program will introduce you to programming and will require concentration,
+patience, and occasionally sudden strokes of insight. 
+
+You don’t have to have a sense of humor, tolerance, or compassion in the learning process — but it will help and is strongly recommended.
+
+By exploring, learning, and practicing the basic incantations of programming lore
+you’ll start your journey to become an ordinary every day ruby programmer!
+
+---
+
+# Class 1
+
+Lecture:
+ - testing
+ - data type - number
+ - data type - string - case study : html
+ - control flow - if
+ - input / output - puts / gets
+ - data type - containers
+
+Coding:
+  base 10, base 16, base 2 , and base 8- ‘bracelet exercise’
+
+  What is a base?
+---
+
+# Testing
+
+
+---
+# Data Type Number
+
+\\
+1 # i am a number
+2 # me too
+3.15 # i am a fancy number called a Float
+\\
+---
+
+# Data Types "String" - 1
+
+  "abc" =='abc'
+
+---
+
+# Data Types "String" - 2
+
+  "a b c " == 'a b c' ? 
+
+---
+
+# Data Types "String" - 3
+
+  Who decides what an 'a', 'b', 'c' is?
+
+---
+
+# Data Types "String" - 4
+
+  Number   Letter
+  97       a
+  98       b
+  ??       c
+
+  ??       A
+  42       B
+
+---
+
+# Data Types "String" - 5 - Ruby Concept 1
+
+  Ruby Concept "Object"
+
+  A basic unit of data in ruby is known as 'object instance' often this is shortened to 'object'
+
+  example:
+
+  "abc" is object of String
+
+---
+
+# Data Types "String" - 6 - Ruby Concept 2
+
+  Object Concept "Message/Response"
+
+  A basic unit of action in object languages is known as 'message'. As actions have consequence so it goes that
+  messages have a response.
+
+  The messages that are sent to an objects are known as 'methods'
+
+---
+
+# Data Types "String" - 7 - Ruby Concept Method 1
+
+  methods of a String instance with no arguments
+
+  - "".length
+  - "1".to_i
+
+---
+
+# Data Types "String" - 7 - Ruby Concept Method 2
+
+  methods of a String instance can take another object as input
+
+  - "a".==('a')
+    => true
+
+  - "a".==('b')
+    => false
+
+  - "a".equal?("b")
+    => false
+
+  Completely different
+  - "abc".split(//)
+    => [ "a" , "b", "c" ]
+---
+
+#  Coding Break - Number Theory exercise - 1
+
+  A code bracelet starts with 
+   a decimal number 
+   you convert this to a binary number (base 2),
+   then convert to hexidecimal (base 16),  
+   then convert to octal (base 8) 
+   and back to decimal.
+
+---
+
+
+#  Coding Break - Number Theory exercise - 2
+
+    Base 10 => Base 2 => Base 16 => Base 8 => Base 10 (check)
+
+    Help:
+    Binary Expansion: 
+      where 'c' is either 0 or 1
+      c1 would be position 1 (leftmost)
+      c8 would be position 8 (rightmost)
+
+    (c1 * 2^0) + (c2 * 2^1) + (c3 * 2^2) + (c4 * 2^3) + 
+    (c5 * 2^4) + (c6 * 2^5) + (c7 * 2^6) + (c8 * 2^7)
+
+    30 minutes : Convert a few of these numbers
+
+    1, 11, 21, 33, 64, 89, 128, 141, 240, 255, 1026 (bonus) ,2014 (bonus bonus), 65537 (mega bonus)
+    
+---
+
+
+# Control Flow - if
+
+  Boolean (2) Logic
+
+    true, false
+
+  Boolean operators
+
+    and, or, not, xor
+---
+
+# Control Flow - if
+\\
+  if 'abc' == 'abc '
+     # equality
+  else
+     # no equality
+  end
+\\
+---
+# Input / Output Devices
+
+  what are some input devices on a computer?
+
+  what are some output devices on a computer?
+ 
+---
+
+# Input / Output - Ruby
+
+  keyboard => input device 
+    in ruby this is the 'gets' command
+
+  screen/console => output device 
+    in ruby this is the 'puts' command
+
+---
+
+# Input / Output - Ruby
+\\
+  # chomp : remove 'enter'/'return' key from input
+
+  inputValue = gets.chomp 
+
+  if inputValue == "1"
+    puts "ice cream"
+  else
+    puts "My input heard this"
+    puts inputValue
+  end
+\\
+
+---
+
+# Data Types - containers.
+
+  Map, Dictonary, Hash, Associative Array are names for a kind of container.
+
+
+  Array, Vector, List, Set are are names for another kind of container.
+
+  Ruby's common containers are 'Array, Hash, and Set'
+
+---
+# Data Types - containers 1 - array
+\\
+  []  # is used to denote an empty array in ruby.
+
+  ["a" # would be an element with a single array
+
+  ["a", "b"] # would be two elements in a single array
+
+  ["a", 19 , 3.14] # would be 3 elements of differnt kinds in a single array
+
+  ["a", [19, [3.14, "pi"], "nineteen"], "first letter of alphabet"] # array with arrays with arrays!
+\\
+  In an Array the 'index' is a numerical position of a value.
+
+---
+# Data Types - Case Study - HTML
+\\
+  <html>
+    <body>
+      <p> I am a paragraph </p>
+    </body>
+  </html>
+\\
+
+HTML is a giant string, that has special substrings inside to make structure.
+
+It also can be considered as an array!
+
+# Data Types - Case Study - HTML
+
+Just one way to represent a html string in an array
+
+\\
+  ["html",["body",["p",["I am a paragraph"]]] # one way
+
+  ["html",["body",["p",["I am a paragraph"] "/p"], "/body"], "/html"] # another way
+\\
+
+
+
+---
+# End Of Class - Study Topic Suggestions
+
+  Pick one option, or invent your own - 
+  prepare a small paragraph in your own words about the topic.
+
+  This is your opportunity to share random facts!
+
+- @option concept: bits, bytes, nibble
+- @option concept: strings, parsers, lexers, yacc, regexp
+  @option history: computer culture, ARPANET, FIDONET
+- @option history: windows, unix, lisp machine
+- @option history: ansii, ascii art, sixteencolors.net
+
