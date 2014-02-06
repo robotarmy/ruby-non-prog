@@ -189,19 +189,38 @@ Coding:
 #  Coding Break - Number Theory exercise - 2
 
     Base 10 => Base 2 => Base 16 => Base 8 => Base 10 (check)
-
+    
     Help:
-    Binary Expansion: 
+    
+    Binary Expansion:  (right most position is largest)
       where 'c' is either 0 or 1
       c1 would be position 1 (leftmost)
       c8 would be position 8 (rightmost)
 
-    (c1 * 2^0) + (c2 * 2^1) + (c3 * 2^2) + (c4 * 2^3) + 
-    (c5 * 2^4) + (c6 * 2^5) + (c7 * 2^6) + (c8 * 2^7)
+      2**0 is 2 with exponent 0 ( 1 )
+      2**1 is 2 with exponent 1 ( 2 )
+
+    (c1 * 2**0) + (c2 * 2**1) + (c3 * 2**2) + (c4 * 2**3) + 
+    (c5 * 2**4) + (c6 * 2**5) + (c7 * 2**6) + (c8 * 2**7)
 
     30 minutes : Convert a few of these numbers
 
     1, 11, 21, 33, 64, 89, 128, 141, 240, 255, 1026 (bonus) ,2014 (bonus bonus), 65537 (mega bonus)
+
+    Left Base Expansion: (left most position is largest)
+      where 'b' is the base
+
+      where 'c' is a constant between (0 and b-1)
+      c1 would be position 1 (leftmost)
+      c8 would be position 8 (rightmost)
+
+    (cn * b**n) + .. + (c2 * b**2) + (c1 * b**1) + (c0 * b**0) 
+    
+    1234 in base 10
+    
+    (1 * 10**3) + (2 * 10**2) + (3 * 10**3) + (4 * 10**4) = 1234
+
+    Amazing!
     
 ---
 
