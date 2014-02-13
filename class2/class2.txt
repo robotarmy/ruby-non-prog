@@ -1,0 +1,117 @@
+# Introduction
+
+Hi! My name is Curtis Schofield - I am your teacher.
+---
+# Class 2
+
+lecture: loop
+data-type - object
+input/output - fill in card class -> inspect
+
+coding:
+ data-type - fill in hand class 
+
+---
+
+# Programming Editors
+This one works in Mac, Windows, Linux 
+
+http://www.sublimetext.com/3
+It has color-coding of programming files which is essential.
+Your editor is the most important tool you will ever use as a
+programmer. It is a personal decision - kind of like clothing.
+
+---
+# Loop - traditional while
+
+  numbers = [1,2,3]
+  count = 0
+  index = 0
+  while index < numbers.size
+    count = numbers[index] + count
+    index = index + 1
+  end
+  puts count
+
+---
+# Loop - each
+  2 basic kinds of loops
+
+  count = 0 
+  [1,2,3].each do |element|
+    count = count + element
+  end
+
+---
+
+---
+# Data Type Object - 0
+Concept
+
+Objects have data (properties)
+Objects have method (messages that have response)
+Objects need to be created ( Ruby creates some objects automatically)
+
+Objects are a Design tool.
+---
+# Data Type Object - 1 - to_s
+\\
+1 # already an object (Fixnum)
+Object.new.to_s # new Generic Object(kinda useless)
+\\
+---
+# Data Type Object - 2
+\\
+class Thing1
+  def initialize
+    @name = 'Thing1'
+  end
+end
+\\
+---
+# Data Type Object - 3
+\\
+class Thing2
+  def initialize
+    @name = 'Thing2'
+  end
+end
+\\
+---
+# Data Type Object - 4
+\\
+class Person
+  def initialize(name)
+    @name = name
+  end
+  def name
+    @name
+  end
+  def to_s
+    "#{self.class} : #{@name}"
+  end
+end
+\\
+---
+# Input / Output - Card Object - inspect message
+
+https://raw.github.com/robotarmy/ruby-non-prog/master/class2/card.rb
+---
+# Coding - Hand Object
+https://raw.github.com/robotarmy/ruby-non-prog/master/class2/hand.rb
+---
+# Coding - Driver Object
+https://raw.github.com/robotarmy/ruby-non-prog/master/class2/driver.rb
+---
+# Choose a Topic for Independent Research or Development
+As before you may choose a topic - or try your hand (lol) at anything.
+
+@option -> (coding) search / match poker hand 4 of kind or full house
+@option -> (advanced) sorting, searching, quick sort,
+@option -> (advanced) hash functions, binary trees
+@option people: Kevin Mitnik, Ada Lovelace, Dr Grace Hopper, 
+                Donna Dubinsky, Richard Stallman, Linus Torvalds
+@option history: MOD, tracker, DEMO scene, A-0, Cyberpunk, WELL
+                
+
+
