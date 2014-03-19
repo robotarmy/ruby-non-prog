@@ -12,7 +12,15 @@ coding:
  data-type - fill in hand class 
 
 ---
+# ruby exploration
 
+http://tryruby.org/levels/4/challenges/1
+
+topic 1 and 2 of section 3
+
+http://mislav.uniqpath.com/poignant-guide/book/chapter-3.html
+
+---
 # Programming Editors
 This one works in Mac, Windows, Linux 
 
