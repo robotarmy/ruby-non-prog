@@ -152,11 +152,33 @@ Content-Length: 1270
 
 URL/URI : Universal Resource (Location/Identifier)
 
-protocal : server  : path
-http:// www.google.com /
+protocal -    server        -     path
+http://    www.example.com        /
 
 
 GET /index.html : requesting a path to a 'resource' 
 POST /cake      : writing data to a path  'resource'
+
+# HTTP ruby server
+```
+most basic server
+
+https://github.com/robotarmy/ruby-non-prog/blob/master/class3/server.rb
+
+```
+# HTTP client
+
+What is your favorite HTTP client?
+
+Why might you write your own?
+
+# Topics for research
+
+@option 'TCP Socket'
+@option SMTP protocol, TCP protocol, FTP protocol
+@option Bit-torrent
+@option history: ARPNET , DECNET, PDP/11, 
+
+
 
 
