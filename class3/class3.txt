@@ -1,0 +1,162 @@
+# Class 3
+
+Ruby Koans
+
+http://rubykoans.com/
+
+Introduces language features.
+Offers opportunity to practice.
+
+Practice before we begin
+
+---
+# Beginners Mind.
+
+When I had a concussion : unordered thoughts => no programming.
+After the first week I was able to program for 15 minutes.
+I got this idea to build an inventory across all subaru of america
+websites. I was able to write 20 minutes and then developed a headache,
+I took a break and wrote another 20 minutes. I took a break and wrote 
+another 20 minutes. Then for the next 2 days I had terrible migranes
+and was sad.
+
+---
+# Beginners Mind
+
+When we start as a beginner - we don't even know the basics - this is
+the perfect state of mind that can always be striven for - in this state
+of mind we can discover the basics. 
+---
+# Beginners Mind
+
+The basics are like water and bread and fruit and vegitables (and fish
+or meat if you like) - the basics are.
+
+---
+# Beginners Mind
+
+You do not have to know the basics - only you need the mind that can
+discover the basics - you can take as long as you wish to develop this
+mind - you can take as long as you wish to develop the basics.
+
+---
+# Beginners Mind
+
+If desire the most advanced knowledge - you will always meet the basics
+and may be frustrated by this - this is because you are who you are
+right now - and that is ok - it couldn't be any other way.
+---
+# Beginners Mind
+
+Accepting this is reality - is beginners mind - it is the mind that
+learns from all things, all things become its' teacher, it has no
+sense of time, place, or being - but exists only with time, place and
+being. 
+---
+# Begining IO
+
+Open a File
+```
+File.open("file.txt")
+```
+---
+# Begining IO
+close a File
+```
+file = File.open("file.txt")
+
+file.close
+```
+---
+# Begining IO
+
+using a File object is not obvious, 
+it requires study.
+
+```
+file = File.open("file.txt")
+
+file.readlines
+
+file.close
+```
+---
+# Begining IO
+
+using a File object is not obvious, 
+it requires study.
+
+```
+file = File.open("file.txt")
+
+file.readlines
+
+file.close
+```
+---
+
+# Begining IO
+
+This is just basic IO usage - In ruby File is 'IO'
+google "rdoc IO ruby" you will find this :
+
+http://www.ruby-doc.org/core-2.1.1/IO.html
+
+# Begining Programming
+
+The basics of programming are reading and writing.
+Read is most important. Writing can be used to understand
+what you read - but if you cannot read - you cannot write
+anything worth reading. (sorry it's true)
+
+# Reading A Web Server
+
+Magic programmer trick wih 'telnet'
+
+---
+# Telnet
+
+``` 
+telnet example.org 80
+```
+type in the following - followed by a empty "return" charater line
+```
+GET / HTTP/1.1
+HOST: example.org
+
+
+```
+
+---
+# result
+A HTTP server at example.org gives a standarized response:
+
+```
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: max-age=604800
+Content-Type: text/html
+Date: Wed, 19 Mar 2014 03:35:16 GMT
+Etag: "359670651"
+Expires: Wed, 26 Mar 2014 03:35:16 GMT
+Last-Modified: Fri, 09 Aug 2013 23:54:35 GMT
+Server: ECS (sjc/4FC8)
+X-Cache: HIT
+x-ec-custom-error: 1
+Content-Length: 1270
+
+<html> ... more here  ... </html>
+```
+---
+# HTTP basics
+
+URL/URI : Universal Resource (Location/Identifier)
+
+protocal : server  : path
+http:// www.google.com /
+
+
+GET /index.html : requesting a path to a 'resource' 
+POST /cake      : writing data to a path  'resource'
+
+
