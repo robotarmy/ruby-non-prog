@@ -1,0 +1,72 @@
+# Class # 4
+Programming Assignment 
+
+Making a Tire Calculator! Practice!
+
+---
+Today you are going to write a full program
+
+A tire size is 3 parts and written as the string
+
+255/50R16 means that the tire is 
+
+255 milimeters wide
+50  series profile
+R   radial tire
+15  inch rim size
+
+Tire diameter is calculated with the following 
+formula:
+
+((((Width * (profile/100)) / 25.4) * 2 ) + rim size )
+
+-
+Your tire calculator will expect a string in the
+standard tire format, it will only calculate if
+the correct format is entered. 
+
+Entering '0' will stop the program and 
+print the number of successful calculations 
+
+-
+
+About Program Example Output:
+
+'$' is the terminal 
+
+'Enter Tire Size) ' is the prompt for input
+
+Lines beging with '#' is program output 
+
+$ ruby calc.rb
+#
+#  Welcome Tires Calculator 
+#  
+#  Enter tire in standard format:  
+#
+#  255/50R16 
+#
+#  0 to exit program
+#
+Enter Tire Size)
+# Enter tire format ex: 255/50R16
+# 0 to exit program
+Enter Tire Size) hello
+# Enter tire format ex: 255/50R16
+# 0 to exit program
+Enter Tire Size) 255/50R16
+# Tire Size
+# 255/50R16
+#
+# Diameter        : 25.04 inches
+# Sidewall Height : 5.02 inches
+#
+Enter Tire Size) 0
+# 
+# 1 Tire size calculated
+#
+# Thank you for visiting Welcome Tire!
+#
+$ 
+
+---
